@@ -1,0 +1,10 @@
+{
+  "name": "gralettediscord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ponicorn <tougrer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
