@@ -51,7 +51,7 @@ function shuffle(a) {
 }
 
 function lancerRoulette(channel, resultat, tts = false) {
-    let phrasesDeMerde = config.phrasesDeMerde
+    let phrasesDeMerde = config.phrasesDeMerde.slice(0)
 
     phrasesDeMerde = shuffle(phrasesDeMerde)
 
